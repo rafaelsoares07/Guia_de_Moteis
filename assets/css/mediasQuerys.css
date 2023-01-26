@@ -1,0 +1,71 @@
+:root {
+    --cor-marron-primario:#5A493E;
+    --cor-marron-secundario:#7A7266;
+    --cor-marron-terciario:#6C6359;
+    --cor-preto-primario:#2A2A2A;
+    --cor-preto-secundario:#000000;
+    --cor-branco-primario:#FFFFFF;
+
+}
+
+@media screen and (max-width: 1040px) {
+
+    .item-nav-1,
+    .item-nav-2 {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 860px) {
+
+    .item-nav-3 {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .item-nav-4,
+    .item-nav-5,
+    .item-nav-6 {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 390px) {
+    .main-text {
+        font-size: 52px;
+        text-align: center;
+    }
+
+    .side-text {
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .wrap-home {
+        flex-direction: column-reverse;
+    }
+
+    nav{
+        justify-content: space-around;
+        background-color:var(--cor-preto-primario) ;
+        height: 70px;
+    }
+    .btn-toggle{
+        display: block;
+    }
+    .btn-navbar,.logo{
+        margin: 0;
+    }
+    .btn-navbar{
+        width: 105px;
+        height: 45px;
+        background-color:var(--cor-marron-secundario);
+        color: var(--cor-branco-primario);
+    }
+}
+

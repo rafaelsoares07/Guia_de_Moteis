@@ -31,7 +31,7 @@ button{
 
 /* Seção 01 do Site  */
 .wrap-home{
-    max-width: 1280px;
+    width:100vw;
     height: 100vh;
     background-image: url("../imgs/slider-d.png");
     background-repeat: no-repeat;
@@ -56,6 +56,9 @@ li{
     margin: 0 24px;
     color: var(--cor-branco-primario);
 }
+li:hover{
+    color:var(--cor-marron-primario);
+}
 
 .logo{
     display: block;
@@ -70,6 +73,11 @@ li{
     margin-right:86px;
     padding: 12px 16px;
 }
+
+.btn-toggle{
+    display:none;
+}
+
 
 .wrap-img-banner{
     width: 100%;
@@ -113,3 +121,17 @@ li{
     background-color:var(--cor-marron-primario) ;
     margin-left: 8px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

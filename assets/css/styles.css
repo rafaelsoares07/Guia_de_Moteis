@@ -1,0 +1,115 @@
+/*Reset CSS*/
+*, html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Playfair Display', serif; */
+}
+
+/* Variáveis CSS */
+:root {
+    --cor-marron-primario:#5A493E;
+    --cor-marron-secundario:#7A7266;
+    --cor-marron-terciario:#6C6359;
+    --cor-preto-primario:#2A2A2A;
+    --cor-preto-secundario:#000000;
+    --cor-branco-primario:#FFFFFF;
+
+}
+
+/* Configurações Gerais */
+button{
+    border: none;
+    cursor: pointer;
+    background-color: var(--cor-branco-primario);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+
+}
+
+/* Seção 01 do Site  */
+.wrap-home{
+    max-width: 1280px;
+    height: 100vh;
+    background-image: url("../imgs/slider-d.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+}
+li{
+    margin: 0 24px;
+    color: var(--cor-branco-primario);
+}
+
+.logo{
+    display: block;
+    width:113.4px;
+    height: 22.48px;
+    margin-left: 70px;
+}
+
+.btn-navbar{
+    width: 96px;
+    height: 45px;
+    margin-right:86px;
+    padding: 12px 16px;
+}
+
+.wrap-img-banner{
+    width: 100%;
+    min-height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-grow: 1;
+
+}
+
+.side-text, .main-text{
+    font-family: 'Playfair Display', serif; 
+    color:var(--cor-branco-primario);
+}
+.main-text{
+    font-weight: 600;
+    font-size: 67px;
+}
+
+.side-text{
+    font-weight: 500;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.btn-banner{
+    width: 160px;
+    height: 41px;
+    padding: 12px 16px;
+    color: var(--cor-branco-primario);
+}
+
+.btn-banner-1{
+    background-color:var(--cor-marron-secundario) ;
+    margin-right: 8px;
+}
+.btn-banner-2{
+    background-color:var(--cor-marron-primario) ;
+    margin-left: 8px;
+}

@@ -23,6 +23,15 @@
         display: none;
     }
 
+    .wrap-motel{
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    }
+
+    .img-motel{
+        margin: 0;
+    }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -34,6 +43,21 @@
     }
 
 }
+
+@media screen and (max-width: 570px) {
+    .img-motel{
+    max-width:100%;
+    height: 312px;
+    }
+    .banner-left{
+    max-width:80%;
+    margin-bottom: 64px;
+    transform: translateY(-15px);
+    }
+}
+
+
+
 
 @media screen and (max-width: 390px) {
     .main-text {

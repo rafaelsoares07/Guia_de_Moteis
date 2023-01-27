@@ -183,3 +183,43 @@ li:hover{
     background-color: var(--cor-marron-secundario);
     color: var(--cor-branco-primario);
 }
+
+
+.wrap-cortesias{
+    background-color:var(--cor-marron-secundario);
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards-area{
+    width: 100%;
+    margin-bottom:32px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.cards-area div{
+    
+}
+
+.wrap-cortesias h3{
+margin-top: 64px;
+margin-bottom: 32px;
+color: var(--cor-branco-primario);
+font-size: 34px;
+font-weight: 600;
+ font-family: 'Playfair Display', serif;
+}
+
+.wrap-cortesias button{
+    margin-bottom: 76px;
+    width: 185px;
+    height: 45px;
+    background-color: var(--cor-preto-primario);
+    color: var(--cor-branco-primario);
+}
+

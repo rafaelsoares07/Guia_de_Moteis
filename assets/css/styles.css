@@ -15,6 +15,7 @@
     --cor-preto-primario:#2A2A2A;
     --cor-preto-secundario:#000000;
     --cor-branco-primario:#FFFFFF;
+    --cor-branco-secundario:#EEEEEE;
 
 }
 
@@ -123,15 +124,62 @@ li:hover{
 }
 
 
+.wrap-suites{
+    width:100vw;
+    height: 100vh;
+    background-color:var(--cor-marron-secundario);
+}
+
+
+.wrap-motel{
+    background-color:var(--cor-branco-secundario);
+    min-height: 704px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-left{
+    background-color: var(--cor-branco-primario);
+    max-width:568px;
+    min-height:512px;
+    padding: 72px 32px;
+    margin: 0;
+}
+
+.img-motel{
+    max-width:568px;
+    height:512px;
+    object-fit: cover;
+    margin-bottom:32px;
+    padding: 0;
+    transition: all 1s;
+}
+
+.img-motel:hover{
+    transform: scale(1.02) rotate(0.5deg);
+    
+}
 
 
 
+.main-text-motel{
+    color: var(--cor-preto-primario);
+    font-weight: 600;
+    font-size: 34px;
+}
 
+.side-text-motel{
+    color: var(--cor-preto-primario);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 16px;
+}
 
-
-
-
-
-
-
-
+.btn-motel{
+    margin-top: 24px;
+    width: 109px;
+    height: 41px;
+    background-color: var(--cor-marron-secundario);
+    color: var(--cor-branco-primario);
+}

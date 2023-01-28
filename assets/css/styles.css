@@ -19,6 +19,10 @@
 
 }
 
+/* .text-primary{
+    color:var(--cor-marron-primario) !important;
+} */
+
 /* Configurações Gerais */
 button{
     border: none;
@@ -30,9 +34,15 @@ button{
 
 }
 
+a{
+    text-decoration: none;
+    color: var(--cor-branco-primario);
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+
 /* Seção 01 do Site  */
 .wrap-home{
-    width:100vw;
     height: 100vh;
     background-image: url("../imgs/slider-d.png");
     background-repeat: no-repeat;
@@ -125,10 +135,11 @@ li:hover{
 
 
 .wrap-suites{
-    width:100vw;
     height: 100vh;
     background-color:var(--cor-marron-secundario);
 }
+
+
 
 
 .wrap-motel{
@@ -223,3 +234,93 @@ font-weight: 600;
     color: var(--cor-branco-primario);
 }
 
+
+.title-card{
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+    color: var(--cor-preto-primario);
+}
+
+.my-5{
+    margin:80px 0 !important;
+}
+
+.h-25{
+    height: 41px !important;
+}
+
+.color-black-50{
+    color: var(--cor-preto-primario);
+}
+
+.color-black-100{
+    color: var(--cor-preto-secundario);
+}
+
+.color-white-100{
+    color: var(--cor-branco-primario);
+}
+
+.bg-brown-100{
+    background-color: var(--cor-marron-primario);
+}
+
+.bg-black-100{
+    background-color: var(--cor-preto-primario);
+}
+
+.bg-white-50{
+    background-color: var(--cor-branco-secundario);
+}
+.bg-white-100{
+    background-color:var(--cor-branco-primario);
+}
+
+.font-family-mont{
+    font-family: 'Montserrat', sans-serif;
+}
+.font-family-play{
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+.card{
+    cursor: pointer;
+}
+div .card:hover{
+    transform: scale(0.95);
+    filter: grayscale(0.2);
+}
+
+button:active{
+    transform: scale(0.95);
+}
+
+.btn-footer{
+    max-width:296px;
+    margin:10px;
+    padding: 16px 32px;
+}
+
+.btn-outline{
+    border: 1px solid white;
+    background-color: var(--cor-preto-primario);
+}
+
+.btn-fill{
+    background-color: var(--cor-marron-secundario);
+}
+
+
+.card-localization{
+    width:312px;
+    height :234px;
+}
+
+.card-map{
+    width:312px;
+    height:312px;
+    
+}
+}

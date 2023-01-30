@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/colorsAndFonts.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="./assets/css/mediasQuerys.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,29 +21,29 @@
 
 <body>
 
-    <main class="wrap-home">
-        <nav>
-            <div>
+    <main class="wrap-home d-flex flex-column-reverse flex-sm-column">
+        <nav class="d-flex justify-content-between align-items-center">
+            <div class="container-logo">
                 <img class="logo" src="./assets//imgs/Motel.png" />
                 <img class="logo" src="./assets/imgs/Vison.png" />
             </div>
             <div class="nav-itens">
                 <ul>
-                    <li class="item-nav-1">Inicio</li>
-                    <li class="item-nav-2">Suites</li>
-                    <li class="item-nav-3">O Motel</li>
-                    <li class="item-nav-4">Cortesias</li>
-                    <li class="item-nav-5">Localização</li>
-                    <li class="item-nav-6">Contato</li>
+                    <li class="d-none d-lg-block"><a href="#">O Início</a></li>
+                    <li class="d-none d-lg-block"><a href="#suites">Suítes</a></li>
+                    <li class="d-none d-lg-block"><a href="#motel">O Motel</a></li>
+                    <li class="d-none d-md-block"><a href="#cortesias">Cortesias</a></li>
+                    <li class="d-none d-md-block"><a href="#localização">Localização</a></li>
+                    <li class="d-none d-md-block"><a href="#contato">Contato</a></li>
                 </ul>
             </div>
             <div>
-                <button class="btn btn-navbar">
+                <button class=" btn-navbar d-none-sm">
                     Reservas
                 </button>
             </div>
 
-            <img class="btn-toggle" src="./assets/imgs/more.png" />
+            <img class="mx-4 d-sm-none" src="./assets/imgs/more.png" />
         </nav>
 
         <div class="wrap-img-banner">
@@ -58,8 +59,8 @@
 
     </main>
 
-    <section class="wrap-suites">
-        <h3>
+    <section id="suites" class="container-fluid bg-brown-50 d-flex flex-column justify-content-center align-items-center">
+        <h3 class="font-family-play color-white-100" style="margin-top: 80px;">
             Nossas suítes
         </h3>
 
@@ -68,35 +69,20 @@
             <button class="arrow-right control" aria-label="Next Image">▶</button>
             <div class="gallery-wrapper">
 
-                <div style="padding: 40px;" class="gallery">
+                <div style="padding-bottom: 40px;" class="gallery">
+
                     <div class="item" style="width: 250px; height: 250px;"></div>
 
                     <div style="position: relative;">
                         <img src="./assets/imgs/image 1.png" alt="Beach Image" class="item ">
 
-                        <div style=" position: absolute; bottom: -50px; left: 0; right: 0; margin: 0 auto; background-color: beige; width: 314px; padding:32px;"
-                            class="d-flex justify-content-center align-items-center">
+                        <div class=" card-suites d-flex justify-content-around align-items-center">
                             <div>
-                                <h3>Suíte Cristal</h3>
-                                <p>A partir de 164,00</p>
+                                <h4 class="font-family-play">Suíte Cristal</h4>
+                                <a style="font-size: 14px;">A partir de 164,00</a>
                             </div>
                             <div>
-                                <button>Saiba mais</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div style="position: relative;">
-                        <img src="./assets/imgs/image 1.png" alt="Beach Image" class="item ">
-
-                        <div style=" position: absolute; bottom: -50px; left: 0; right: 0; margin: 0 auto; background-color: beige; width: 314px; padding:32px;"
-                            class="d-flex justify-content-center align-items-center">
-                            <div>
-                                <h3>Suíte Cristal</h3>
-                                <p>A partir de 164,00</p>
-                            </div>
-                            <div>
-                                <button>Saiba mais</button>
+                                <button class=" btn-card-suites">Saiba mais</button>
                             </div>
                         </div>
                     </div>
@@ -104,44 +90,52 @@
                     <div style="position: relative;">
                         <img src="./assets/imgs/image 1.png" alt="Beach Image" class="item ">
 
-                        <div style=" position: absolute; bottom: -50px; left: 0; right: 0; margin: 0 auto; background-color: beige; width: 314px; padding:32px;"
-                            class="d-flex justify-content-center align-items-center">
+                        <div class="card-suites d-flex justify-content-around align-items-center">
                             <div>
-                                <h3>Suíte Cristal</h3>
-                                <p>A partir de 164,00</p>
+                                <h4 class="font-family-play">Suíte Cristal</h4>
+                                <a style="font-size: 14px;">A partir de 164,00</a>
                             </div>
                             <div>
-                                <button>Saiba mais</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div style="position: relative;">
-                        <img src="./assets/imgs/image 1.png" alt="Beach Image" class="item ">
-
-                        <div style=" position: absolute; bottom: -50px; left: 0; right: 0; margin: 0 auto; background-color: beige; width: 314px; padding:32px;"
-                            class="d-flex justify-content-center align-items-center">
-                            <div>
-                                <h3>Suíte Cristal</h3>
-                                <p>A partir de 164,00</p>
-                            </div>
-                            <div>
-                                <button>Saiba mais</button>
+                                <button class=" btn-card-suites">Saiba mais</button>
                             </div>
                         </div>
                     </div>
-
                     <div style="position: relative;">
                         <img src="./assets/imgs/image 1.png" alt="Beach Image" class="item ">
 
-                        <div style=" position: absolute; bottom: -50px; left: 0; right: 0; margin: 0 auto; background-color: beige; width: 314px; padding:32px;"
-                            class="d-flex justify-content-center align-items-center">
+                        <div class=" card-suites d-flex justify-content-around align-items-center">
                             <div>
-                                <h3>Suíte Cristal</h3>
-                                <p>A partir de 164,00</p>
+                                <h4 class="font-family-play">Suíte Cristal</h4>
+                                <a style="font-size: 14px;">A partir de 164,00</a>
                             </div>
                             <div>
-                                <button>Saiba mais</button>
+                                <button class=" btn-card-suites">Saiba mais</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="position: relative;">
+                        <img src="./assets/imgs/image 1.png" alt="Beach Image" class="item ">
+
+                        <div class=" cards-suites d-flex justify-content-around align-items-center">
+                            <div>
+                                <h4 class="font-family-play">Suíte Cristal</h4>
+                                <a style="font-size: 14px;">A partir de 164,00</a>
+                            </div>
+                            <div>
+                                <button class=" btn-card-suites">Saiba mais</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="position: relative;">
+                        <img src="./assets/imgs/image 1.png" alt="Beach Image" class="item ">
+
+                        <div class="card-suites d-flex justify-content-around align-items-center">
+                            <div>
+                                <h4 class="font-family-play">Suíte Cristal</h4>
+                                <a style="font-size: 14px;">A partir de 164,00</a>
+                            </div>
+                            <div>
+                                <button class=" btn-card-suites">Saiba mais</button>
                             </div>
                         </div>
                     </div>
@@ -150,12 +144,10 @@
                 </div>
             </div>
         </div>
-
-
-
+        <a href="" style="margin-top: 24px; margin-bottom:80px; text-decoration: underline;">Ver todas as suites</a>
     </section>
 
-    <section class="wrap-motel">
+    <section id="motel" class="wrap-motel flex-column-reverse justify-content-start flex-lg-row justify-content-lg-center">
         <div class="banner-left">
             <h3 class="main-text-motel">O Motel</h3>
             <p class="side-text-motel">O Vison Motel está localizado na Zona Industrial Norte, em Joinville e conta com
@@ -173,7 +165,8 @@
         </div>
 
     </section>
-    <section class="wrap-cortesias">
+
+    <section id="cortesias" class="wrap-cortesias">
         <h3>Cortesias</h3>
         <div class="cards-area">
 
@@ -204,9 +197,10 @@
         </div>
         <button>Ver todas as cortesias</button>
     </section>
-    <section class="container-fluid bg-white-50 d-flex justify-content-center align-itens-center">
+
+    <section id="localização" class="container-fluid bg-white-50 d-flex justify-content-center align-itens-center">
         <div class=" d-flex my-5 justify-content-center align-itens-center flex-wrap">
-            <iframe class="card-map"
+            <iframe title="mapa da localização" class="card-map"
                 src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3578.7783889342036!2d-48.82566062719778!3d-26.236389330739424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1674841287197!5m2!1spt-BR!2sbr"
                 width="496" height="290" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -221,19 +215,19 @@
     </section>
 
 
-    <div class="container-fluid text-center">
-        <div class="row bg-black-100">
+    <div id="contato" class="container-fluid text-center">
+        <div class="row bg-black-100" >
 
-            <div class=" col-md-4 col-lg-4 col-xl-4 bg-sm-primary d-none d-sm-block ">
-                <div class="d-flex flex-column justify-content-center align-itens-center">
-                    <img class="d-block w-25 mx-auto mt-3" src="./assets//imgs/Motel.png" />
-                    <img class="d-block w-25 mx-auto" src="./assets/imgs/Vison.png" />
-                    <p class="mx-auto my-2" style="width: 263px; font-size:14px; color:white;">Rua SPMS, Conj./Lote
+            <div class=" col-md-4 col-lg-4 col-xl-4 bg-sm-primary d-none d-sm-block mt-sm-3 mb-sm-0  mt-md-5 mb-md-5">
+                <div class=" d-flex flex-column align-items-center  justify-content-md-start align-items-md-start m-sm-0 mx-md-5 " style="margin-left: 104px;">
+                    <img alt="Imagem da logo marca do motel"  style="width: 190px; height: 37.5;" class="d-block" src="./assets//imgs/Motel.png" />
+                    <img alt="Imagem da logo marca do motel" style="width: 190px; height: 37.5;" class="d-block" src="./assets/imgs/Vison.png" />
+                    <p class=" my-2" style="width: 263px; font-size:14px; color:white; text-align: left;">Rua SPMS, Conj./Lote
                         175/225 - Núcleo Bandeirante - Brasília - DF</p>
                 </div>
             </div>
 
-            <div class="  col-md-8 col-lg-8 col-xl-8 bg-alert d-none d-sm-block ">
+            <div class="  col-md-8 col-lg-8 col-xl-8 bg-alert d-none d-sm-block mt-sm-3 mt-md-5 ">
                 <div class="d-flex justify-content-around mt-3">
                     <div class="d-flex flex-column">
                         <a href="#">O inicio</a>
@@ -246,30 +240,39 @@
                         <a href="#">Reservas</a>
                     </div>
                     <div class="d-flex flex-column">
-                        <div class="d-flex flex-column justify-content-end">
+                        <div class="d-flex flex-column align-items-start">
                             <p style="font-size: 11px; margin: 0; color: white;">Whatsapp</p>
-                            <a href="#">(061) 3552-2297</a>
+                            <a href="https://web.whatsapp.com/send?phone=556135522297">(061) 3552-2297</a>
                         </div>
-                        <p style="font-size: 11px; margin: 0; color: white;">Email</p>
-                        <a href="#">contato@motelvison.com</a>
+                        <div class="d-flex flex-column align-items-start">
+                            <p style="font-size: 11px; margin: 0; color: white;">E-mail</p>
+                            <a href="mailto:contato@motelvision.com">contato@motelvison.com</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class=" d-block d-sm-none d-flex flex-column bg-black-100">
-            <img class="d-block w-25 mx-auto mt-3" src="./assets//imgs/Motel.png" />
-            <img class="d-block w-25 mx-auto " src="./assets/imgs/Vison.png" />
-            <button class="btn-footer btn-fill">Reservas</button>
-            <button class="btn-footer btn-fill">Ver suites</button>
-            <button class="btn-footer btn-outline">Whatsapp</button>
-            <button class="btn-footer btn-outline">Contato</button>
+        <div class="row bg-black-100">
+            <div class="d-block d-sm-none d-flex flex-column bg-black-100 justify-content-center align-items-center">
+                <img style="width: 189px; height: 37.5px;" class="d-block mx-auto mt-3" src="./assets//imgs/Motel.png" />
+                <img style="width: 189px; height: 37.5px;" class="d-block mx-auto " src="./assets/imgs/Vison.png" />
+                
+                <div style="height: 1px; width: 296px; margin:32px 0;" class="bg-white-100" ></div>
+    
+                <button class="btn-footer btn-fill">Reservas </button>
+                <button class="btn-footer btn-fill">Ver suites</button>
+                <button class="btn-footer btn-outline">Whatsapp</button>
+                <button class="btn-footer btn-outline mb-5">Contato</button>
+            </div>
         </div>
+
+    </div>
+    <div class=" footer container-fluid d-flex justify-content-center">
+        <p style="font-size:10px; color:white;" class="my-sm-auto my-3">GUIA DE MÓTEIS SITES | GUIA DE MÓTEIS ©</p>
     </div>
 
-    <div style="height: 36px; background-color: black;" class="container-fluid d-flex justify-content-center">
-        <p style="font-size:10px; color:white;" class="my-auto">GUIA DE MÓTEIS SITES | GUIA DE MÓTEIS ©</p>
-    </div>
+    
 
 </body>
 

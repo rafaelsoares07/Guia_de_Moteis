@@ -181,6 +181,13 @@ li:hover{
     background-color: var(--cor-marron-secundario);
     color: var(--cor-branco-primario);
 }
+
+.btn-localizacao{
+    width:109px;
+    height:41px;
+    padding:12px 16px;
+}
+
 .wrap-cortesias{
     background-color:var(--cor-marron-secundario);
     height:auto;
@@ -350,4 +357,22 @@ h1 {
 .footer{
     background-color: var(--cor-preto-secundario);
     height: 36px;
+}
+
+li::after{
+    content: "";
+    background:var(--cor-marron-50);
+    height: 2px;
+    width: 0%;
+    display: block;
+    transition: .15s ease-in-out;
+}
+
+li:hover::after{
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color:var(--cor-marron-100);
+    display: block;
+
 }

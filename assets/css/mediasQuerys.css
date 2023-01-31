@@ -1,12 +1,3 @@
-:root {
-    --cor-marron-primario:#5A493E;
-    --cor-marron-secundario:#7A7266;
-    --cor-marron-terciario:#6C6359;
-    --cor-preto-primario:#2A2A2A;
-    --cor-preto-secundario:#000000;
-    --cor-branco-primario:#FFFFFF;
-
-}
 @media screen and (max-width: 860px) {
     .img-motel{
         margin: 0;
@@ -15,7 +6,7 @@
 
 @media screen and (max-width: 576px) {
     .img-motel{
-    max-width:100%;
+    width:100vw;
     height: 312px;
     }
     .banner-left{
@@ -68,7 +59,6 @@
         min-height: 195px; 
         flex-direction: column;
     }
-
     .card-cortesia{
         width: 312px;
         min-height: 377px;

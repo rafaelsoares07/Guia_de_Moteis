@@ -376,3 +376,7 @@ li:hover::after{
     display: block;
 
 }
+.card-cortesia{
+    width:22rem;
+    height: 23rem;
+}

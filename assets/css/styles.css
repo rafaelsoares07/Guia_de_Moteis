@@ -279,6 +279,8 @@ h1 {
 }
 .gallery-wrapper {
   overflow-x: auto;
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
 }
 .arrow-left, .arrow-right{
     width:40px;
@@ -313,10 +315,6 @@ h1 {
 }
 .gallery-wrapper::-webkit-scrollbar {
   display: none;
-}
-.gallery-wrapper {
-  -ms-overflow-style: none; 
-  scrollbar-width: none; 
 }
 .btn-card-suites{
     width:109px;

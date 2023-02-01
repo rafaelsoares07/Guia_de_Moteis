@@ -4,9 +4,9 @@ const items = document.querySelectorAll(".item");
 const maxItems = items.length;
 
 
-window.onload = function(){
-    const controlRigth = document.querySelector(".arrow-right").click();
-}
+// window.onload = function(){
+//     const controlRigth = document.querySelector(".arrow-right").click();
+// }
 
 controls.forEach((control) => {
   control.addEventListener("click", (e) => {

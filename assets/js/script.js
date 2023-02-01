@@ -23,7 +23,7 @@ controls.forEach((control) => {
 
 
     if (currentItem >= maxItems-1) {
-      currentItem = 1;
+      currentItem = 0;
     }
 
     if (currentItem <= 0) {

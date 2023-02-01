@@ -63,5 +63,9 @@
         width: 312px;
         min-height: 377px;
     }
+
+    .gallery-wrapper {
+        overflow-x: hidden; 
+    }
 }
 

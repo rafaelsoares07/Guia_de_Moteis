@@ -280,7 +280,7 @@ h1 {
 .gallery-wrapper {
   overflow-x: auto;
   -ms-overflow-style: none; 
-  scrollbar-width: none; 
+  scrollbar-width: none;
 }
 .arrow-left, .arrow-right{
     width:40px;

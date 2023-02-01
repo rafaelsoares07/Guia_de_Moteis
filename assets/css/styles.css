@@ -47,7 +47,7 @@ html {
 
 /* Seção 01 do Site  */
 .wrap-home{
-    height: 100vh;
+    min-height: 100vh;
     background-image: url("../imgs/slider-d.png");
     background-repeat: no-repeat;
     background-size: cover;
